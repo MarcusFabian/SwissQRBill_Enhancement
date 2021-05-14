@@ -1,0 +1,49 @@
+{
+  "id": "0a72022f-8c0b-4538-a518-fccef8769040",
+  "name": "Swiss QR Bill Enhancement",
+  "publisher": "Marcus Fabian",
+  "version": "16.5.15897.15953",
+  "brief": "Enhancement QR-Bill Management for Switzerland",
+  "description": "Enhancement and Correction of Microsoft QR-Bill Management for Switzerland",
+"privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "publisher": "Microsoft",
+      "name": "System Application",
+      "version": "16.5.15897.15953"
+    },
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "publisher": "Microsoft",
+      "name": "Base Application",
+      "version": "16.5.15897.15953"
+    },
+    {
+      "id": "98860128-1333-4598-A3DA-0590804648B7",
+      "publisher": "Microsoft",
+      "name": "QR-Bill Management for Switzerland",
+      "version": "16.5.15897.15953"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "16.0.0.0",
+  "idRanges": [
+    {
+      "from": 50400,
+      "to": 50449
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://IseppiReports.com/help/",
+  "showMyCode": true,
+  "features": [
+    "TranslationFile","GenerateCaptions"
+  ],
+  "target": "OnPrem",
+  "runtime": "5.0"
+}

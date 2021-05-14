@@ -1,0 +1,62 @@
+{
+    "name": "Ruleset",
+    "description": "Ruleset",
+    "rules": [
+        {
+            "id": "AL0468",
+            "action": "Error",
+            "justification": "Can be a nasty error"
+        },
+        {
+            "id": "AL0603",
+            "action": "None",
+            "justification": "Typecast erlauben"
+        },
+        {
+            "id": "AA0005",
+            "action": "None",
+            "justification": "Begin und End erhöhen die Lesbarkeit"        
+        },
+        {
+            "id": "PTE0005",
+            "action": "None",
+            "justification": "Für OnPrem ist Target internal noch erlaubt"
+        },
+        {
+            "id": "PTE0004",
+            "action": "Info",
+            "justification": "Permission Set am Ende über Batch / gemeinsam anlegen"
+        },
+        {
+            "id": "AA0214",
+            "action": "None",
+            "justification": "Buggy entry"
+        },
+        {
+            "id": "AA0218",
+            "action": "None",
+            "justification": "Not used"
+        },
+        {
+            "id": "AW0011",
+            "action": "None",
+            "justification": "Navigation only contains promoted actions that are not set to PromotedOnly=true"
+        },
+        {
+            "id": "AA0217",
+            "action": "None",
+            "justification": "Not used: Use a text constant or label for format string in StrSubstNo."
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "The name of <Record> is not valid. The name of variables and parameters must be suffixed with the type or object name."
+        },
+        {
+            "id": "AA0139",
+            "action": "None",
+            "justification": "Don't care"
+
+        }
+    ]
+}

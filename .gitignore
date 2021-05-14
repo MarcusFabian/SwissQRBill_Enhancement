@@ -1,0 +1,62 @@
+# Created by https://www.gitignore.io/api/al,windows
+# Edit at https://www.gitignore.io/?templates=al,windows
+
+# The tools folder
+.tools
+.snapshots
+
+#Root Folder
+#Symbols folder
+.alpackages/
+.alcache/
+.altemplates/
+.altestrunner/
+
+### AL ###
+#XLIFF file
+
+# End of https://www.gitignore.io/api/al,windows
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/al,windows
+
+.alpackages/*
+.vscode/.alcache/*
+.vscode/.altemplates/table.dictionary.json
+.vscode/rad.json
+.vscode/.altemplates/*.json
+Translations/*g.xlf
+
+
+SharedAppData/.alpackages/*.app
+
+.vscode/rad.json
+.alpackages/*.app
+.vscode/.alcache/*.json
+.vscode/rad.json
+
+launch.json
