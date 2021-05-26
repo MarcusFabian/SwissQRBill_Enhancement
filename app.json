@@ -1,15 +1,16 @@
 {
-  "id": "0a72022f-8c0b-4538-a518-fccef8769040",
+  "id": "3e0e8264-45a4-4809-8dec-d2109888856f",
   "name": "Swiss QR Bill Enhancement",
   "publisher": "Marcus Fabian",
-  "version": "16.5.15897.15953",
-  "brief": "Enhancement QR-Bill Management for Switzerland",
-  "description": "Enhancement and Correction of Microsoft QR-Bill Management for Switzerland",
-"privacyStatement": "",
+  "brief": "Easily generate, send, and import QR-bills in Dynamics 365 Business Central",
+  "description": "QR-bills enable easier processing and payment of received invoices from vendors. The QR-Bill Management app for Switzerland allows you to generate QR-bills that are compliant with the Swiss standard to receive QR-bills either via file import or direct input scan. All received QR-bills are handled via the Incoming Documents feature from where purchase journals can be created directly from the imported QR-bills. Finally, this app ensures that all payment references from  QR-bill are carried through SEPA files to and from the bank and back to the issuer of the QR-bill for easy reconciliation. With this app, you can easily comply with the Swiss requirements for the QR-bills.",
+  "version": "16.0.0.0",
+  "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
+  "contextSensitiveHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2115702",
+  "logo": "ExtensionLogo.png",
   "dependencies": [
     {
       "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
@@ -31,19 +32,17 @@
     }
   ],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "16.0.0.0",
   "idRanges": [
     {
       "from": 50400,
       "to": 50449
     }
   ],
-  "contextSensitiveHelpUrl": "https://IseppiReports.com/help/",
   "showMyCode": true,
   "features": [
-    "TranslationFile","GenerateCaptions"
+    "TranslationFile",
+    "GenerateCaptions"
   ],
   "target": "OnPrem",
-  "runtime": "5.0"
+  "runtime": "5.3"
 }
